@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #120136;
+}
+h1{
+  font-family: "Satisfy";
+  color:#FCBF1E;
+  letter-spacing: 0.03em;
+  font-size: 50px;
+}
+.Designer,.about2{
+  font-family: 'Lobster';
+  letter-spacing: 0.03em;
+  color: #21e6c1;
+}
+.Explain{
+  background-color: #1f4287;
+  width:95%;
+  height:600px;
+  position:fixed;
+  top: 90px;
+  left: 40px;
+}
+.Mamak{
+  position: absolute;
+	clip: rect(50px, auto, 420px, auto);
+  width: 95%;
+  height: auto;
+  top:-30px;
+  left:35px;
+}
+.designer{
+  background-color: linear-gradient(#1f4287,#278ea5,#21e6c1);
+  width:auto;
+  height:auto;
+}
+/*Header*/
+header {
+  display: flex;
+  justify-content: flex-en;
+  align-items: center;
+  padding: 10px 2%;
+  background-color: #120136;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: "Satisfy";
+  font-weight: 500;
+  font-size: 20px;
+  color: #FCBF1E;
+  text-decoration: none;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color:white;
+  font-size:25px;
+  border-bottom: solid 2px white;
+}
+
+.cta {
+  margin-left: 20px;
+  padding: 9px 25px;
+  border: none;
+  background-color: #FCBF1E;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color:#120136;
+}
+
+.cta:hover {
+  background-color: ivory;
+  color:#00a8cc;
+  transform:scale(1.1);
+  font-size:25px;
+}
+.BJCheng,.jason,.WCTheam,.me{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  object-position: center;
+}
+.me{
+  position: absolute;
+  top: 465px;
+  left:1130px;
+}
+.WCTheam{
+  position: absolute;
+  top: 465px;
+  left:1210px;
+}
+.BJCheng{
+  position: absolute;
+  top: 465px;
+  left:1290px;
+}
+.jason{
+  position: absolute;
+  top: 465px;
+  left:1370px;
+}
+.SmallExplain{
+  font-family: 'Patrick Hand SC';
+  font-size: 25px;
+  text-align: justify;
+  font-weight: 600;
+  width: 1050px;
+  height:auto;
+  position:absolute;
+  color: 	#21e6c1;
+  top:450px;
+  left: 50px;
+}
+.Designer{
+  position:absolute;
+  top:400px;
+  left: 1210px;
+  font-size: 50px;
+}
+.about2{
+  position:absolute;
+  top:400px;
+  left: 500px;
+  font-size: 45px;
+
+
+}

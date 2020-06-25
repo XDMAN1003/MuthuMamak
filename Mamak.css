@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: ivory;
+}
+h1,.Designer,.about2{
+  font-family: "Lobster";
+  font-size: 50px;
+  letter-spacing: 0.03em;
+  color:#473E3F;
+}
+
+/*Nav Bar*/
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 2%;
+  background-color: #F9E559;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: "Lobster";
+  font-weight: 500;
+  font-size: 20px;
+  color: #473E3F;
+  text-decoration: none;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088aa;
+  font-size:25px;
+}
+
+.cta {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: #218C8D;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+.cta:hover {
+  background-color: #6CCECB;
+  color: #473E3F;
+  transform:scale(1.1);
+  font-size:25px;
+}
+
+/*Setting Picture and the explaination*/
+.Explain{
+  background-color: #F0FFFF;
+  background-position: center;
+  width:1480px;
+  height: 600px;
+  position: fixed;
+  top: 100px;
+  left: 30px;
+}
+.Mamak{
+  position:relative;
+  top: 40px;
+  left: 20px;
+  width:1050px;
+  height:auto;
+}
+.BJCheng,.jason,.WCTheam,.me{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+.me{
+  position: absolute;
+  top: 480px;
+  left:1150px;
+}
+.WCTheam{
+  position: absolute;
+  top: 480px;
+  left:1210px;
+}
+.BJCheng{
+  position: absolute;
+  top: 480px;
+  left:1270px;
+}
+.jason{
+  position: absolute;
+  top: 480px;
+  left:1320px;
+}
+.SmallExplain{
+  font-family: 'Shadows Into Light';
+  font-size: 20px;
+  text-align: justify;
+  font-weight: 600;
+  width: 350px;
+  height:auto;
+  position:absolute;
+  color: #473E3F;
+  top:100px;
+  left: 1100px;
+}
+.Designer{
+  position:absolute;
+  top:440px;
+  left: 1210px;
+  font-size: 30px;
+}
+.about2{
+  position:absolute;
+  top:50px;
+  left: 1220px;
+  font-size: 40px;
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
+    <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Galada' rel='stylesheet'>
+    <style>
+      .artboard{
+        background-color: #FFFFF0;
+        width: 400px;
+        height: 450px;
+        border-radius: 5%;
+        position: relative;
+        top: 30px;
+        margin: auto;
+        padding: 10px;
+        border: 3px solid #FFFFFF;
+      }
+      .logo{
+        background-color: #2e2e2e;
+        position: relative;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        top: 30px;
+        left: 75px;
+        border: 3px solid yellow;
+
+      }
+      .head{
+        width: 180px;
+        height: 90px;
+        border-top-left-radius: 180px;
+        border-top-right-radius: 180px;
+        background-color: #FFFFF0;
+        position: relative;
+        top: 60px;
+        left: 35px;
+        animation: open 2s;
+        transform-origin: bottom left;
+      }
+      @keyframes open {
+        from{transform: rotate(-60deg);}
+        30%{transform:rotate(-80deg);}
+        to{transform: rotate(0deg);}
+        }
+      .down{
+        width: 180px;
+        height: 20px;
+        border-radius: 45%;
+        background-color: #FFFFF0;
+        position: relative;
+        top: 65px;
+        left: 35px;
+      }
+
+      body{
+        background-color: #F0F8FF;
+      }
+      .title1,.title2,.subtitle,.Food1{
+        font-family: "Kaushan Script";
+      }
+      .Name1,.Name2,.smallText{
+        position: relative;
+        font-size: 50px;
+        font-family: "Galada";
+        top: 0px;
+        left: 45px;
+        color: yellow;
+        opacity: 0;
+        animation: logogo 4s forwards;
+        z-index: 2;
+      }
+      .Name2{
+        position: relative;
+        top: -85px;
+        left: 40px;
+        color: black;
+      }
+      .smallText{
+        position: relative;
+        font-size: 20px;
+        top: -100px;
+        left: 55px;
+        color: #FFFFF0;
+      }
+      .Food1{
+        opacity: 1;
+        position: absolute;
+        color: #FFFFF0;
+        font-size: 50px;
+        top:130px;
+        left: 140px;
+      }
+      @keyframes logogo {
+        50%{opacity: 0;}
+        100%{opacity: 1;}
+        }
+      .title1{
+        position: relative;
+        font-size: 60px;
+        top: 20px;
+        left: 10px;
+        color: yellow;
+      }
+      .title2{
+        position: relative;
+        font-size: 60px;
+        top: -70px;
+        left: 15px;
+        color: black;
+      }
+      .subtitle{
+        position: relative;
+        font-size: 15px;
+        top: -85px;
+        left: 110px;
+        color: black;
+      }
+      .crown{
+        position: relative;
+        top: 100px;
+        left: 50px;
+        opacity: 0;
+        animation: logogo 4s forwards;
+        z-index: 2;
+      }
+      .left,.right {
+        width: 0px;
+        height: 0px;
+        border-bottom: solid 20px #2e2e2e;
+        border-right: solid 20px transparent;
+        border-left: solid 20px #2e2e2e;
+        border-top: solid 20px transparent;
+        position: absolute;
+        top:-285px;
+        left: 50px;
+        }
+        .right{
+          position: absolute;
+          left: 60px;
+          transform: scaleX(-1);
+        }
+        .center{
+          width: 0px;
+          height: 0px;
+          border-right: solid 20px transparent;
+          border-left: solid 20px transparent;
+          border-bottom: solid 40px #2e2e2e;
+          position: absolute;
+          top:-285px;
+          left: 55px;
+        }
+        .Mamak{
+          position: absolute;
+          top:385px;
+          left: 40px;
+          width: 160px;
+          height: 50px;
+          font-size: 30px;
+          font-family: "Kaushan Script";
+          background-color: yellow;
+          border: 2px solid white;
+          border-radius: 10px;
+        }
+        .Restaurant{
+          position: absolute;
+          top: 385px;
+          left: 220px;
+          width: 160px;
+          height: 50px;
+          font-size: 30px;
+          color: yellow;
+          font-family: "Kaushan Script";
+          background-color: black;
+          border: 2px solid white;
+          border-radius: 10px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class= "artboard">
+      <div class = "logo">
+        <div class = "head"></div>
+        <div class = "down"></div>
+        <div class = "Name1">Mamak</div>
+        <div class = "Name2">Mamak</div>
+        <div class ="crown">
+          <div class="left"></div>
+          <div class="center"></div>
+          <div class="right"></div>
+        </div>
+        <div class="smallText">Best Mamak Ever</div>
+      </div>
+      <div class = "title1">Muthu Mamak</div>
+      <div class = "title2">Muthu Mamak</div>
+      <div class = "subtitle">22nd PTUTM Small KIDZ</div>
+      <div class = "Food1">ROTI?</div>
+      <button class = "Mamak" onclick= "location.href = 'Mamak.html';">Mamak</button>
+      <button class = "Restaurant" onclick= "location.href = 'Restaurant.html';">Restaurant</button>
+    </div>
+  </body>
+</html>
